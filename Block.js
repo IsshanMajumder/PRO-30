@@ -2,8 +2,7 @@ class Block{
   constructor(x, y, width, height) {
       var options = {
           restitution:0.4,
-          friction:0.0,
-          density:1.0,
+          friction:0.0
           }
       this.visibility=255;
       this.image= loadImage("block.png");
